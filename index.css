@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  min-height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.calculator {
+  width: 300px;
+  height: 485px;
+  border: 0;
+  background: #22252d;
+  border-radius: 6px;
+  text-align: center;
+  box-shadow: -8px 9px 32px -18px rgba(0, 0, 0, 0.75);
+}
+
+form input {
+  width: 100%;
+  height: 150px;
+  border: none;
+  border-radius: 6px;
+  background: black;
+  font-size: 2rem;
+  padding: 1rem;
+  color: #fff;
+  text-align: right;
+  pointer-events: none;
+}
+
+/* .screen {
+  border: 0;
+  border-radius: 6px;
+  background: blue;
+} */
+
+button {
+  height: 52px;
+  font-weight: 600;
+  font-size: 22px;
+  margin: 5px 0;
+  border: 1px solid #000;
+}
+
+.buttons {
+  display: grid;
+  margin: 5px;
+  padding: 2px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-content: space-between;
+}
+
+.btn {
+  padding: 10px;
+  margin: 6px;
+  border: none;
+  border-radius: 3px;
+  font-size: 20px;
+}
+
+.btn-value {
+  background: #efeff2;
+}
+.btn-operator {
+  background: orange;
+  color: white;
+}
+
+.btn-equal {
+  padding: 10px;
+  margin: 6px;
+  border: none;
+  border-radius: 3px;
+  font-size: 20px;
+}
+
+.btn-ce {
+  color: white;
+  background: red;
+}
+
+.blank {
+  background: gray;
+}
